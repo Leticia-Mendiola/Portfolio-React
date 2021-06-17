@@ -6,12 +6,13 @@ import Resume from "./pages/Resume";
 import Profiles from "./pages/Profiles"
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import Project from "./components/Project"
-// import Wrapper from "./components/Wrapper";
+// import Project from "./components/Project"
+import Wrapper from "./components/Wrapper";
 import './App.css';
 
 function App() {
   return (
+    <Router>
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -28,6 +29,16 @@ function App() {
         </a>
       </header>
     </div>
+    <div>
+      <Header />
+      <Wrapper>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/Resume" component={Resume} />
+        <Route exact path="/Profiles" component={Profiles} />
+      </Wrapper>
+      <Footer />
+    </div>
+    </Router>
   );
 }
 
