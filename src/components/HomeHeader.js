@@ -1,9 +1,10 @@
 import React from "react";
+import pic from "../ProfilePic.jpg";
 
 function HomeHeader() {
     return (
         <div style={{marginTop: "70px"}} className="container row z-depth-5">
-            <img className="col s4 responsive-img circle" alt="profile pic" src="Assets/profile pic.jpg"/> 
+            <img className="col s4 responsive-img circle" alt="profile pic" src={pic}/> 
             <div className="col s8 card-content">
                 <h4 className="right-align">Contact Information</h4>
                 <br></br>
