@@ -19,4 +19,4 @@ function HomeHeader() {
     );
 }
 
-export default HomeHeader
+export default HomeHeader;
