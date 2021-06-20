@@ -33,6 +33,7 @@ function App() {
       <Header />
       <Wrapper>
         <Route exact path="/" component={Home} />
+        <Route exact path="/Home" component={Home} />
         <Route exact path="/Resume" component={Resume} />
         <Route exact path="/Profiles" component={Profiles} />
       </Wrapper>
