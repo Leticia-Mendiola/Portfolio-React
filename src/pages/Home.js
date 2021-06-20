@@ -1,9 +1,11 @@
 import React from "react";
 import HomeHeader from "../components/HomeHeader";
+import Project from "../components/Project";
 
 function Home() {
     return (
-        <HomeHeader />
+        <HomeHeader />,
+        <Project />
     );
 }
 
