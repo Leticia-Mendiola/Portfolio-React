@@ -4,47 +4,47 @@
       "name": "Portable Budget Tracker",
       "image":
         "https://",
-      "dlink": "",
-      "glink": ""
+      "dlink": "https://portable-budget-tracker.herokuapp.com/",
+      "glink": "https://github.com/Leticia-Mendiola/Portable-Budget-Tracker"
     },
     {
       "id": 2,
       "name": "Fitness Tracker",
       "image":
         "https://",
-      "dlink": "",
-      "glink": ""
+      "dlink": "https://lmendiola-fitness-tracker.herokuapp.com/?id=60aea53a1b45330015aca24a",
+      "glink": "https://github.com/Leticia-Mendiola/FitnessTracker"
     },
     {
       "id": 3,
       "name": "Patient Tracker",
       "image":
         "https://",
-      "dlink": "",
-      "glink": ""
+      "dlink": "https://hospitaltracker.herokuapp.com/",
+      "glink": "https://github.com/CGO7/patient_tracker"
     },
     {
       "id": 4,
       "name": "Small Business Geocoding",
       "image":
         "https://",
-      "dlink": "",
-      "glink": ""
+      "dlink": "https://takolad.github.io/small-business-geocoding/",
+      "glink": "https://github.com/takolad/small-business-geocoding"
     },
     {
       "id": 5,
       "name": "Employee Directory",
       "image":
         "https://",
-      "dlink": "",
-      "glink": ""
+      "dlink": "https://interactive-employee-directory.herokuapp.com/",
+      "glink": "https://github.com/Leticia-Mendiola/interactive_employee_directory"
     },
     {
       "id": 6,
       "name": "TechBlog",
       "image":
         "https://",
-      "dlink": "",
-      "glink": ""
+      "dlink": "https://leticia-mendiola-tech-blog.herokuapp.com/",
+      "glink": "https://github.com/Leticia-Mendiola/TechBlog"
     }
   ]  
