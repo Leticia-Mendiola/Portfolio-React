@@ -12,8 +12,8 @@ function Home() {
             <Project
             name={projects.name}
             image={projects.image}
-            occupation={projects.dlink}
-            location={projects.glink}
+            dlink={projects.dlink}
+            glink={projects.glink}
             />))
           }
         </Wrapper>
