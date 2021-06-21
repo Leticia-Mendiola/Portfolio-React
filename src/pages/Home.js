@@ -8,6 +8,9 @@ function Home() {
     return (
         <Wrapper>
         <HomeHeader />,
+        <div className="row">
+        <div className="col-2"></div>
+        <div className="col-8">
         { projects.map(projects => (
             <Project
             name={projects.name}
@@ -16,6 +19,9 @@ function Home() {
             glink={projects.glink}
             />))
           }
+        </div>
+        <div className="col-2"></div>
+        </div>
         </Wrapper>
     );
 }
