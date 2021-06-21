@@ -3,7 +3,7 @@ import React from "react";
 function Profiles() {
     return (
     <div>
-        <div style="margin-top: 70px;" class="container row z-depth-5">
+        <div style={{marginTop: "70px"}} className="container row z-depth-5"v>
             <img class="col s4 responsive-img circle" alt="profile pic" src="Assets/profile pic.jpg"> 
             <div class="col s8 card-content valign-wrapper center-align">
             <div>
@@ -14,7 +14,7 @@ function Profiles() {
             </div>
             </div>
         </div>
-        <div style="margin-top: 70px;" class="container row z-depth-5">
+        <div style={{marginTop: "70px"}} className="container row z-depth-5">
             <img class="col s4 responsive-img circle" alt="profile pic" src="Assets/profile pic.jpg"> 
             <div class="col s8 card-content valign-wrapper center-align">
             <div>
