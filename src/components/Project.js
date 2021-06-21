@@ -12,10 +12,10 @@ function Project(props) {
               <strong>Name:</strong> {props.name}
             </li>
             <li>
-              <strong>Application:</strong> {props.dlink}
+            <strong>Application:</strong><a href={props.dlink}>{props.dlink}</a>
             </li>
             <li>
-              <strong>Git Hub:</strong> {props.glink}
+            <strong>Git Hub:</strong><a href={props.glink}>{props.glink}</a>
             </li>
           </ul>
         </div>
