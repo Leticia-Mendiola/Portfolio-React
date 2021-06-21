@@ -1,10 +1,11 @@
 import React from "react";
+import pic from "../ProfilePic.jpg";
 
 function Profiles() {
     return (
     <div>
         <div style={{marginTop: "70px"}} className="container row z-depth-5"v>
-            <img class="col s4 responsive-img circle" alt="profile pic" src="Assets/profile pic.jpg"> 
+            <img className="col s4 responsive-img circle" alt="profile pic" src={pic}/> 
             <div class="col s8 card-content valign-wrapper center-align">
             <div>
                 <h4 class="white-text">Git Hub Profile</h2>
@@ -15,7 +16,7 @@ function Profiles() {
             </div>
         </div>
         <div style={{marginTop: "70px"}} className="container row z-depth-5">
-            <img class="col s4 responsive-img circle" alt="profile pic" src="Assets/profile pic.jpg"> 
+            <img className="col s4 responsive-img circle" alt="profile pic" src={pic}/> 
             <div class="col s8 card-content valign-wrapper center-align">
             <div>
                 <h4 class="white-text">LinkedIn Profile</h2>
