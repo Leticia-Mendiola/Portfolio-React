@@ -3,8 +3,8 @@ import React from "react";
 function Project(props) {
     return(
         <div className="card">
-        <div className="img-container">
-          <img alt={props.name} src={props.image} />
+        <div className="img-container" style={{backgroundImage: `url(${props.image})`}}>
+          {/* <img alt={props.name} /> */}
         </div>
         <div className="content">
           <ul>
