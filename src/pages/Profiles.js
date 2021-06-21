@@ -5,8 +5,8 @@ function Profiles() {
     return (
     <div>
         <div style={{marginTop: "70px"}} className="container row z-depth-5"v>
-            <img className="col s4 responsive-img circle" alt="profile pic" src={pic}/> 
-            <div className="col s8 card-content valign-wrapper center-align">
+            <img className="col-4 img-fluid rounded-circle" alt="profile pic" src={pic}/> 
+            <div className="col-8 card-content valign-wrapper center-align">
             <div>
                 <h4 className="white-text">Git Hub Profile</h4>
             </div>
@@ -16,8 +16,8 @@ function Profiles() {
             </div>
         </div>
         <div style={{marginTop: "70px"}} className="container row z-depth-5">
-            <img className="col s4 responsive-img circle" alt="profile pic" src={pic}/> 
-            <div className="col s8 card-content valign-wrapper center-align">
+            <img className="col-4 img-fluid rounded-circle" alt="profile pic" src={pic}/> 
+            <div className="col-8 card-content valign-wrapper center-align">
             <div>
                 <h4 className="white-text">LinkedIn Profile</h4>
             </div>
